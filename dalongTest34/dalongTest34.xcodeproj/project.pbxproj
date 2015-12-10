@@ -131,6 +131,13 @@
 			path = dalong6;
 			sourceTree = "<group>";
 		};
+		F40D1CDB1C19124200826C17 /* aaaaaa */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = aaaaaa;
+			sourceTree = "<group>";
+		};
 		F44199221C182886004DE28E = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +161,7 @@
 		F441992D1C182886004DE28E /* dalongTest34 */ = {
 			isa = PBXGroup;
 			children = (
+				F40D1CDB1C19124200826C17 /* aaaaaa */,
 				2D4BB0641C1911E300CB44F0 /* eeee */,
 				2D4BB05E1C19114300CB44F0 /* weer */,
 				F40D1CCF1C1908D400826C17 /* dalong */,
