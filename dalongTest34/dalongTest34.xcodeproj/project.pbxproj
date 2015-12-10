@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D4BB0601C19114300CB44F0 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 2D4BB05F1C19114300CB44F0 /* .gitkeep */; };
+		2D4BB0631C19114C00CB44F0 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4BB0621C19114C00CB44F0 /* TableViewCell.m */; };
 		F44199301C182886004DE28E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F441992F1C182886004DE28E /* main.m */; };
 		F44199331C182886004DE28E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F44199321C182886004DE28E /* AppDelegate.m */; };
 		F44199361C182886004DE28E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F44199351C182886004DE28E /* ViewController.m */; };
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D4BB05F1C19114300CB44F0 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		2D4BB0611C19114C00CB44F0 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		2D4BB0621C19114C00CB44F0 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 		F441992B1C182886004DE28E /* dalongTest34.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dalongTest34.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F441992F1C182886004DE28E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F44199311C182886004DE28E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +83,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D4BB05E1C19114300CB44F0 /* weer */ = {
+			isa = PBXGroup;
+			children = (
+				2D4BB05F1C19114300CB44F0 /* .gitkeep */,
+				2D4BB0611C19114C00CB44F0 /* TableViewCell.h */,
+				2D4BB0621C19114C00CB44F0 /* TableViewCell.m */,
+			);
+			path = weer;
+			sourceTree = "<group>";
+		};
 		F40D1CCF1C1908D400826C17 /* dalong */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +131,7 @@
 		F441992D1C182886004DE28E /* dalongTest34 */ = {
 			isa = PBXGroup;
 			children = (
+				2D4BB05E1C19114300CB44F0 /* weer */,
 				F40D1CCF1C1908D400826C17 /* dalong */,
 				F44199311C182886004DE28E /* AppDelegate.h */,
 				F44199321C182886004DE28E /* AppDelegate.m */,
@@ -262,6 +278,7 @@
 				F441993E1C182886004DE28E /* LaunchScreen.storyboard in Resources */,
 				F441993B1C182886004DE28E /* Assets.xcassets in Resources */,
 				F44199391C182886004DE28E /* Main.storyboard in Resources */,
+				2D4BB0601C19114300CB44F0 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F44199361C182886004DE28E /* ViewController.m in Sources */,
+				2D4BB0631C19114C00CB44F0 /* TableViewCell.m in Sources */,
 				F44199331C182886004DE28E /* AppDelegate.m in Sources */,
 				F44199301C182886004DE28E /* main.m in Sources */,
 			);
