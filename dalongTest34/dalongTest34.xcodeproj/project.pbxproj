@@ -78,6 +78,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F40D1CCF1C1908D400826C17 /* dalong */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = dalong;
+			sourceTree = "<group>";
+		};
 		F44199221C182886004DE28E = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +108,7 @@
 		F441992D1C182886004DE28E /* dalongTest34 */ = {
 			isa = PBXGroup;
 			children = (
+				F40D1CCF1C1908D400826C17 /* dalong */,
 				F44199311C182886004DE28E /* AppDelegate.h */,
 				F44199321C182886004DE28E /* AppDelegate.m */,
 				F44199341C182886004DE28E /* ViewController.h */,
@@ -496,6 +504,7 @@
 				F441995A1C182886004DE28E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F441995B1C182886004DE28E /* Build configuration list for PBXNativeTarget "dalongTest34Tests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +513,7 @@
 				F441995D1C182886004DE28E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F441995E1C182886004DE28E /* Build configuration list for PBXNativeTarget "dalongTest34UITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +522,7 @@
 				F44199601C182886004DE28E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
